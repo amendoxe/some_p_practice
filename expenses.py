@@ -9,7 +9,8 @@
 
 def main():
     """Show menu and take input"""
-    expenses = []
+    expenses = [{"amount": 5, "category": "dogs"},
+                {"amount": 3, "category": "cats"}]
     while True:
         print(
             "\nWhat do you want to do?\n 1. Add expense"
